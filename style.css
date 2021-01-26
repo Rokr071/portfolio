@@ -1,0 +1,27 @@
+nav {
+	border: 1px solid;
+	width: 80vw;
+	margin: auto;
+	height: 20vh;
+	/*position: relative;*/
+}
+
+.round {
+	border-radius: 10px;
+	background: #1988E0;
+	/*border: 3px solid #BADA55;*/
+}
+
+.nav-text {
+	text-align: center;
+}
+
+q {
+	max-width: 20em;
+  	margin: 1em;
+    font: 1.8rem/1.4 Georgia, serif;
+}
+
+body {
+	font-family: Elena, -apple-system, Arial, BlinkMacSystemFont, "roboto slab", "droid serif", "segoe ui", Ubuntu, Cantarell, Georgia, sans-serif;
+}
