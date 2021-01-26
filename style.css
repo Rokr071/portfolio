@@ -25,3 +25,8 @@ q {
 body {
 	font-family: Elena, -apple-system, Arial, BlinkMacSystemFont, "roboto slab", "droid serif", "segoe ui", Ubuntu, Cantarell, Georgia, sans-serif;
 }
+
+.container {
+	width: 80vw;
+	margin: auto;
+}
