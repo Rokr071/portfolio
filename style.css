@@ -49,8 +49,12 @@ body {
 .container > .text {
 	padding: 2vw;
 	flex: 1 1 auto;
+	overflow: scroll;
+	/*text-overflow: ellipsis;*/
 }
-
+.item {
+	height: 25vh;
+}
 /*.truncate {
 	height: 100%;
 	white-space: nowrap;
@@ -72,8 +76,17 @@ body {
 		height: 10vh;
 	}
 
+	.container {
+		flex-wrap: wrap;
+	}
+
 	.container > .image {
+		flex-basis: 100%;
 		background: black;
-		object-fit: fill;
+		height: 25vh;
+	}
+
+	.container > .text {
+		overflow: visible;
 	}
 }
