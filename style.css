@@ -34,7 +34,7 @@ body {
 
 .container {
 	width: 80vw;
-	height: 30vh;
+	/*height: 30vh;*/
 	margin: auto;
 	display: flex;
 	padding: 2vw 4vw 4vw;
@@ -49,11 +49,11 @@ body {
 .container > .text {
 	padding: 2vw;
 	flex: 1 1 auto;
-	overflow: scroll;
-	/*text-overflow: ellipsis;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .item {
-	height: 25vh;
+	max-height: inherit;
 }
 /*.truncate {
 	height: 100%;
